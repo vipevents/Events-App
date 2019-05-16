@@ -1,3 +1,10 @@
-html {
-  background-color: orange;
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  margin-right: 3%;
+  font-size: 1.5rem;
 }
