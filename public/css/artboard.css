@@ -1,0 +1,696 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif:400');
+
+@font-face {
+                          font-family: "Posterama2001W04-Regular";
+                          src: url('../fonts/Posterama 2001 W04 Regular.otf') format("opentype");
+                        }
+                        
+.artboard {
+  width               : 100%;
+  min-width           : 1200px;
+  height              : 100vh;
+  min-height          : 700px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.artboard .polygoncopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 47px;
+  height              : 1481px;
+  width               : 1425px;
+  position            : absolute;
+  margin              : 0;
+  left                : -755px;
+  -ms-transform       : rotate(18deg); /* IE 9 */
+  -webkit-transform   : rotate(18deg); /* Chrome, Safari, Opera */
+  transform           : rotate(18deg);
+}
+.artboard .whitecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 96px;
+  height              : 478px;
+  width               : 247px;
+  position            : absolute;
+  margin              : 0;
+  left                : 275px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .whitecopy .base {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 478px;
+  width               : 247px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .whitecopy .mask {
+  background-color    : rgba(235, 235, 235, 1.0);
+  top                 : 15px;
+  height              : 430px;
+  width               : 199px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  border-radius       : 21px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .whitecopy .bar {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 16px;
+  width               : 107px;
+  position            : absolute;
+  margin              : 0;
+  left                : 70px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .rectangle {
+  background-color    : rgba(254, 255, 254, 1.0);
+  top                 : 297px;
+  height              : 187px;
+  width               : 161px;
+  position            : absolute;
+  margin              : 0;
+  left                : 322px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .todou2019s {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 412px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 420px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Bree Serif", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 16.0px;
+}
+.artboard .add {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 412px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 391px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Bree Serif", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 16.0px;
+}
+.artboard .rectangle1 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 257px;
+  height              : 40px;
+  width               : 161px;
+  position            : absolute;
+  margin              : 0;
+  left                : 322px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .rectanglecopy {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 217px;
+  height              : 40px;
+  width               : 161px;
+  position            : absolute;
+  margin              : 0;
+  left                : 322px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .rectanglecopy2 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 177px;
+  height              : 40px;
+  width               : 161px;
+  position            : absolute;
+  margin              : 0;
+  left                : 322px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .time {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 271px;
+  height              : auto;
+  width               : 53px;
+  position            : absolute;
+  margin              : 0;
+  left                : 317px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Bree Serif", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 16.0px;
+}
+.artboard .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 316px;
+  height              : 5px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 470px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .ovalcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 316px;
+  height              : 5px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 462px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .ovalcopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 316px;
+  height              : 5px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 454px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .group5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 348px;
+  height              : 16px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 405px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .group5 .rectangle5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .rectangle3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 366px;
+  height              : 10px;
+  width               : 135px;
+  position            : absolute;
+  margin              : 0;
+  left                : 335px;
+  border-radius       : 5px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .rectangle3copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 366px;
+  height              : 10px;
+  width               : 53px;
+  position            : absolute;
+  margin              : 0;
+  left                : 417px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .addaneweventmana {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 237px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 575px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Bree Serif", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 54.0px;
+  color               : rgba(112, 184, 232, 1.0);
+  text-align          : center;
+  line-height         : 47.0px;
+}
+.artboard .addaneweventmana .span1 {
+  line-height         : 73.0px;
+}
+.artboard .addaneweventmana .span2 {
+  font-size           : 47.0px;
+  line-height         : 64.0px;
+}
+.artboard .line5copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 297px;
+  height              : 2px;
+  width               : 163px;
+  position            : absolute;
+  margin              : 0;
+  left                : 320px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .line5copy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 257px;
+  height              : 2px;
+  width               : 163px;
+  position            : absolute;
+  margin              : 0;
+  left                : 320px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .line5copy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 218px;
+  height              : 2px;
+  width               : 161px;
+  position            : absolute;
+  margin              : 0;
+  left                : 322px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .name {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 191px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 329px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Bree Serif", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 16.0px;
+}
+.artboard .budget {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 308px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 328px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Bree Serif", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 16.0px;
+}
+.artboard .a3000 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 350px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 406px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Bree Serif", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 6.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 8.0px;
+}
+.artboard .line6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 397px;
+  height              : 1px;
+  width               : 161px;
+  position            : absolute;
+  margin              : 0;
+  left                : 321px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .aboutcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 791px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Bree Serif", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 20.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 28.0px;
+}
+.artboard .contactcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1018px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Bree Serif", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 20.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 28.0px;
+}
+.artboard .pricescopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 928px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Bree Serif", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 20.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 28.0px;
+}
+.artboard .faqcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1119px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Bree Serif", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 20.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 28.0px;
+}
+.artboard .place {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 231px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 329px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Bree Serif", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 16.0px;
+}
+.artboard .newevent {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 133px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 343px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Bree Serif", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 22.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 30.0px;
+}
+.artboard .group2copy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 408px;
+  height              : 28px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 346px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .group2copy2 .plus {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .groupcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 595px;
+  height              : 190px;
+  width               : 310px;
+  position            : absolute;
+  margin              : 0;
+  left                : 910px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .groupcopy .rectangle2 {
+  background-color    : rgba(112, 184, 232, 1.0);
+  top                 : 14px;
+  height              : 69px;
+  box-sizing          : border-box;
+  width               : 72px;
+  position            : absolute;
+  margin              : 0;
+  left                : 66px;
+  border-radius       : 11px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.artboard .groupcopy .k {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 206px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Posterama2001W04-Regular", Helvetica, Arial, serif;
+  font-size           : 80.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 98.0px;
+}
+.artboard .groupcopy .arenda {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 49px;
+  height              : auto;
+  width               : 216px;
+  position            : absolute;
+  margin              : 0;
+  left                : 94px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Posterama2001W04-Regular", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(112, 184, 232, 1.0);
+  text-align          : center;
+  line-height         : 37.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
