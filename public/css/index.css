@@ -1,30 +1,6 @@
 .container {
   display: flex;
 }
-.container .left {
-  color: white;
-  background-color: #7f8c8d;
-  height: 15rem;
-  width: 35%;
-  margin-right: 2%;
-}
-.container .left .sq-1L {
-  display: flex;
-}
-.container .left .sq-1L p {
-  display: flex;
-  color: white;
-  font-size: 1rem;
-  margin-top: 3%;
-}
-.container .left .sq-1L img {
-  margin-top: 3%;
-  border-radius: 50%;
-  height: 50px;
-  width: 50px;
-  margin-left: 15%;
-  margin-right: 5%;
-}
 .container .right {
   color: black;
   padding-left: 10%;
@@ -32,7 +8,6 @@
   height: 10rem;
   display: flex;
   justify-content: space-evenly;
-  border: solid #bdc3c7 0.5px;
 }
 .container .right .sq-1 {
   margin-top: 5%;
@@ -51,6 +26,9 @@
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
-  margin-left: 35%;
-  width: 50;
+  margin-top: 5%;
+  width: 80%;
+}
+.cards .card {
+  margin-right: 2%;
 }
