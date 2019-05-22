@@ -1,54 +1,56 @@
-nav {
+.container {
   display: flex;
-  justify-content: flex-end;
 }
-nav #logo {
-  height: 50px;
-  align-self: center;
-  margin-right: auto;
+.container .left {
+  color: green;
+  background-color: #7f8c8d;
+  height: 25rem;
+  width: 35%;
+  margin-right: 2%;
 }
-nav a {
-  text-decoration: none;
-  color: black;
-  margin-right: 3%;
+.container .left hr {
+  color: red;
+}
+.container .left .sq-1L {
+  display: flex;
+}
+.container .left .sq-1L p {
+  color: white;
   font-size: 1rem;
-  align-self: center;
-  color: red;
-  margin-right: 25px;
+  margin-top: 3%;
 }
-.together {
-  display: flex;
+.container .left .sq-1L img {
+  margin-top: 3%;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin-left: 15%;
+  margin-right: 10%;
 }
-.together .leftBar {
-  height: 500px;
-  width: 350px;
-  background-color: red;
-}
-.together .rightBar {
-  align-content: flex-start;
-}
-.together .rightBar h1 {
-  color: red;
-  margin-top: -5px;
-  margin-left: 25px;
-}
-.together .rightBar p {
+.container .right {
   color: black;
-}
-.together .rightBar .card1 {
+  padding-left: 10%;
+  width: 85%;
+  height: 10rem;
   display: flex;
-  margin-left: 25px;
-  height: 5rem;
-  width: 50rem;
-  background-color: red;
+  justify-content: space-evenly;
+  border: solid #bdc3c7 0.5px;
 }
-.together .rightBar .card1 .left {
-  margin-left: 5px;
-  margin-right: 3px;
-  align-content: flex-end;
-  margin-top: 20px;
-}
-.together .rightBar .card1 .right {
+.container .right .sq-1 {
+  margin-top: 5%;
   display: flex;
   flex-wrap: wrap;
+}
+.container .right .sq-1 h4 {
+  font-size: 1rem;
+  margin-left: 2%;
+}
+.container .right .sq-1 .cal {
+  font-size: 2rem;
+}
+.container .right .sq-1 .num {
+  margin-left: 15%;
+  margin-top: -30%;
+  width: 100%;
+  color: grey;
 }
