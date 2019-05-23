@@ -1,6 +1,23 @@
 body {
   margin: 30px;
 }
+body #output {
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  width: 80%;
+}
+body .hey {
+  width: 45%;
+  margin-top: 5%;
+  padding: 2%;
+  border: solid black 2px;
+  margin-right: 5%;
+}
+body .myButton {
+  height: 200px;
+  background-color: red;
+}
 body .account {
   flex-direction: column;
   background-color: grey;
