@@ -1,34 +1,45 @@
-.container {
+body {
+  margin: 30px;
+}
+body .account {
+  flex-direction: column;
+  background-color: grey;
+  height: 300px;
   display: flex;
 }
-.container .right {
-  color: black;
-  padding-left: 10%;
-  width: 85%;
-  height: 10rem;
-  display: flex;
-  justify-content: space-evenly;
-}
-.container .right .sq-1 {
+body .account img {
   margin-top: 5%;
-  display: flex;
-  flex-wrap: wrap;
+  width: 40%;
+  height: 20%;
+  border-radius: 50%;
 }
-.container .right .sq-1 h4 {
+body .account p {
+  margin-left: 2%;
+  font-size: 0.8rem;
+  border-bottom: 1px solid black;
+}
+body .account h2 {
   font-size: 1rem;
-  margin-top: -40%;
-  color: green;
 }
-.container .right .sq-1 .cal {
-  font-size: 2rem;
+body .account a {
+  color: black;
 }
-.cards {
-  justify-content: center;
+body .info {
   display: flex;
+  height: 300px;
+  background-color: #e74c3c;
   flex-wrap: wrap;
-  margin-top: 5%;
-  width: 80%;
+  font-size: 1rem;
 }
-.cards .card {
-  margin-right: 2%;
+body .info h2 {
+  margin-top: 15%;
+  width: 100%;
+  font-size: 1.5rem;
+}
+body .card {
+  margin-top: 5%;
+}
+.test {
+  display: flex;
+  justify-content: center;
 }
