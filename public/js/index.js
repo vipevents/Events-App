@@ -70,6 +70,7 @@ submit.addEventListener("click", () => {
   let last = cards.slice(-1)[0];
   var h = document.createElement("div");
   var hi = document.createElement("h1");
+  var button = document.createElement("hbutton");
   var t = document.createTextNode(`Date: ${last.i1}  Description: ${last.i2}`); // Create a text node
   h.appendChild(t);
   document

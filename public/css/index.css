@@ -1,59 +1,60 @@
-body {
-  margin: 30px;
+body .container .Coworker img {
+  width: 268px;
+  height: 168px;
 }
-body #output {
+#output {
   display: flex;
   margin: 0 auto;
   flex-wrap: wrap;
   width: 80%;
 }
-body .hey {
+.hey {
   width: 45%;
   margin-top: 5%;
   padding: 2%;
   border: solid black 2px;
   margin-right: 5%;
 }
-body .myButton {
+.myButton {
   height: 200px;
   background-color: red;
 }
-body .account {
+.account {
   flex-direction: column;
   background-color: grey;
   height: 300px;
   display: flex;
 }
-body .account img {
+.account img {
   margin-top: 5%;
   width: 40%;
   height: 20%;
   border-radius: 50%;
 }
-body .account p {
+.account p {
   margin-left: 2%;
   font-size: 0.8rem;
   border-bottom: 1px solid black;
 }
-body .account h2 {
+.account h2 {
   font-size: 1rem;
 }
-body .account a {
+.account a {
   color: black;
 }
-body .info {
+.info {
   display: flex;
   height: 300px;
   background-color: #e74c3c;
   flex-wrap: wrap;
   font-size: 1rem;
 }
-body .info h2 {
+.info h2 {
   margin-top: 15%;
   width: 100%;
   font-size: 1.5rem;
 }
-body .card {
+.card {
   margin-top: 5%;
 }
 .test {
